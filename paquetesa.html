@@ -1,0 +1,107 @@
+  <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/Paquetes.css">
+        <script src="js/jquery-3.4.1.js"></script>
+        <title>WINDblue</title>
+    </head>
+    <body>
+        <div>
+            <div class="abarra"></div>
+        <div class="barra">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a>Servicios</a>
+                    <ul>
+                        <li><a href="Paquetes.html">Paquetes Grabacion</a></li>
+                        <li><a href="paquetesa.HTML">Paquetes Animacion</a></li>
+                    </ul>
+                </li>
+                <li><a>Nosotros</a>
+                     <ul>
+                        <li><a href="ni.html">Nuestras Instalaciones</a></li>
+                    </ul>
+                </li>
+                <li class="contacto"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        </div>
+        
+         <div class="wrap">
+            <h1 align="left">Servicios</h1>  
+            <div class="Lista">
+            <ul>
+                <li><button href="#" onclick="pq1()">Paquete 1</button></li>
+                <li><button href="#" onclick="pq2()">Paquete 2</button></li>
+            </ul>
+            </div>
+            <div id="cont" class="Paquete1">
+                <h1>Paquete 1</h1>
+                <h2>Basico</h2>
+                <ul>
+                    <li><p>Full HD (1080p).</p></li>
+                    <li><p>Musica de fondo.</p></li>
+                    <li><p>Levantamientos arquitectónicos hiper-realistas</p></li>
+                    <li><p>Desarrollo de personajes (mascotas empresariales) y animación de los mismos en videos institucionales.</p></li>
+                    <li><p>Realización de arte, escenarios y personajes para videojuegos</p></li>
+                    <li><p>2 revisiones.</p></li>
+                    <li><p>1 memoria USB con diversos formatos: .Mov, .Avi, .mp4.</p></li>
+                    <li><p>Asesoria sin costo.</p></li>
+                </ul>
+                <a href="compra.html">Comprar</a>
+            </div>
+            <div id="cont" class="Paquete2">
+                <h1>Paquete 2</h1>
+                <h2>Avanzado</h2>
+                <ul>
+                    <li><p>4k (UltraHD).</p></li>
+                    <li><p>Levantamientos arquitectónicos hiper-realistas</p></li>
+                    <li><p>Desarrollo de personajes (mascotas empresariales) y animación de los mismos en videos institucionales.</p></li>
+                    <li><p>Logo animado.</p></li>
+                    <li><p>Realización de arte, escenarios y personajes para videojuegos</p></li>
+                    <li><p>2 revisiones.</p></li>
+                    <li><p>Programación de recorridos virtuales en museos, institutos, empresas o donde usted lo requiera</p></li>
+                    <li><p>Programación para visualización web</p></li>
+                    <li><p>1 memoria USB con diversos formatos: .Mov, .Avi, .mp4.</p></li>
+                    <li><p>2 Bluray disc.</p></li>
+                    <li><p>Asesoria sin costo.</p></li>
+                </ul>
+                <a href="compra2.html">Comprar</a>
+            </div>
+        </div>
+        
+        <!--Script-->
+        
+        <script type="text/javascript">
+            $(".Paquete2").hide();
+            $(".Paquete3").hide();
+            $(".Paquete4").hide();
+            
+            function pq1(){
+                $(".Paquete1").show();
+                $(".Paquete2").hide();
+                $(".Paquete3").hide();
+                $(".Paquete4").hide();
+            }
+            function pq2(){
+                $(".Paquete1").hide();
+                $(".Paquete2").show();
+                $(".Paquete3").hide();
+                $(".Paquete4").hide();
+            }
+            function pq3(){
+                $(".Paquete1").hide();
+                $(".Paquete2").hide();
+                $(".Paquete3").show();
+                $(".Paquete4").hide();
+            }
+            function pq4(){
+                $(".Paquete1").hide();
+                $(".Paquete2").hide();
+                $(".Paquete3").hide();
+                $(".Paquete4").show();
+            }
+        </script>
+    </body>
+</html>
