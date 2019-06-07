@@ -1,0 +1,75 @@
+<html lang="en">
+    <head>
+        <title>WINDblue</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/compra.css">
+        <script src="js/jquery-3.4.1.js"></script>
+         
+    </head>
+    <body>
+        <div>
+            <div class="abarra"></div>
+        <div class="barra">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a>Servicios</a>
+                    <ul>
+                        <li><a href="paquetes.html">Paquetes Grabacion</a></li>
+                        <li><a href="paquetesa.html">Paquetes Animacion</a></li>
+                    </ul>
+                </li>
+                <li><a>Nosotros</a>
+                     <ul>
+                        <li><a href="ni.html">Nuestras Instalaciones</a></li>
+                    </ul>
+                </li>
+                <li class="contacto"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        </div>
+        
+        <div class="c1">
+            <h1>Compra de:</h1>
+            <h1>Paquete 2</h1>
+                <h2>Avanzado</h2>
+                <ul>
+                    <li><p>4k (UltraHD).</p></li>
+                    <li><p>Levantamientos arquitectónicos hiper-realistas</p></li>
+                    <li><p>Desarrollo de personajes (mascotas empresariales) y animación de los mismos en videos institucionales.</p></li>
+                    <li><p>Logo animado.</p></li>
+                    <li><p>Realización de arte, escenarios y personajes para videojuegos</p></li>
+                    <li><p>2 revisiones.</p></li>
+                    <li><p>Programación de recorridos virtuales en museos, institutos, empresas o donde usted lo requiera</p></li>
+                    <li><p>Programación para visualización web</p></li>
+                    <li><p>1 memoria USB con diversos formatos: .Mov, .Avi, .mp4.</p></li>
+                    <li><p>2 Bluray disc.</p></li>
+                    <li><p>Asesoria sin costo.</p></li>
+                </ul>
+        </div>
+        
+        <div class="form">
+            <form method="POST" action="accion.php">
+                <label>Nombre Completo</label>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <br>
+                <label>Forma a pagar</label>
+                <br>
+                <input type="radio" name="pago" value="Paypal">PayPal
+                <input type="radio" name="pago" value="TCB">Tarjeta Credito/Debito
+                <br><br>
+                <label>Numero:</label>
+                <input type="number">
+                <br><br>
+                <label>Veincimiento:</label>
+                <input type="date">
+                <br><br>
+                <label>Correo electronico:</label>
+                <input type="text" name="email" id="email">
+                <br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>

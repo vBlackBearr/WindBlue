@@ -1,0 +1,23 @@
+body{
+    display: flex;
+}
+
+.c1 {
+    margin: 70px;
+    position: relative;
+    width: 500px;
+}
+
+.form {
+    background: grey;
+    padding:30px;
+    margin: 60px;
+    margin-top: 70px;
+    height: auto;
+}
+
+.form p {
+    font-size: 20px;
+}
+
+    
