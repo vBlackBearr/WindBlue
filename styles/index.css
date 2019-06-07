@@ -1,0 +1,93 @@
+
+body {
+    
+    font:Times New Roman;
+    margin:auto;
+}
+
+/*titulo*/
+
+.line {
+    background: grey;
+    width: 80%;
+    height: 2px;
+    margin:auto;
+    z-index: 1;
+}
+
+.title{
+    position:absolute;
+    left:2%;
+    top:70px;
+    z-index: 1;
+}
+
+.title h1{
+    font-size:80px;
+    margin:0;
+}
+
+
+/*contenedores iniciales*/
+
+.filosofia {
+    margin:80px;
+    background-color:saddlebrown;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.filosofia div {
+    text-align: left;
+    
+}
+
+.filosofia p {
+    color:white;
+}
+ 
+.intro {
+    display:flex;
+}
+
+.intro img {
+    width:50%;
+    height: auto;
+}
+
+.ref{
+    position:flex;
+    background: black;
+    padding:5%;
+    color:white;
+}
+
+.ref ul{
+    display: flex;
+}
+
+.ref li{
+    display: flex;
+}
+
+.ref ul li a {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    display: block;
+}
+
+.c1{
+    margin: 50px;
+    display: flex;
+}
+
+.c1 img{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+}
+
+    

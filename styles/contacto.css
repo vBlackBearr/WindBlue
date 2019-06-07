@@ -1,0 +1,21 @@
+.c1{
+    margin: 70px 50px 50px 50px;
+    background: grey;
+    padding: 50px;
+    padding-top: 20px;
+    width: 400px;
+}
+
+.c1 img{
+    width: 70px;
+    margin:0 10px 0 10px;
+}  
+
+.c2{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    background: black;
+    color: white;
+    padding: 30px;
+}

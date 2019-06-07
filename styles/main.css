@@ -1,0 +1,134 @@
+
+body {
+    
+    font:Times New Roman;
+    margin:auto;
+}
+
+.contacto a{
+    background: green;
+}
+
+/*titulo*/
+
+.line {
+    background: grey;
+    width: 80%;
+    height: 2px;
+    margin:auto;
+    z-index: 1;
+}
+
+.title{
+    position:absolute;
+    left:2%;
+    top:70px;
+    z-index: 1;
+}
+
+.title h1{
+    font-size:80px;
+    margin:0;
+}
+
+/*barra desplegable*/
+
+.abarra {
+    top:0;
+    width: 100%;
+    height: 52px;
+    position:fixed;
+    background: black;
+    z-index: 2;
+}
+
+.barra {
+    top:0;
+    padding:0;
+    z-index: 2;
+    position:fixed;
+    left:20%;
+}   
+
+.barra > ul >li{
+     float:left;
+}
+
+.barra ul {
+    list-style: none;
+    padding:0;
+    margin:auto;
+    z-index: 2;  
+}
+
+.barra  li  a{
+    padding:17px 26px;
+    background: Black;
+    text-decoration: none;
+    display: block; 
+    color:white;
+}
+
+.barra  li  a:hover{
+    background: grey;
+}
+
+.barra li ul{
+    display:none;
+    position:absolute;
+    min-width: 160px;
+}
+
+.barra li:hover > ul{
+    display:block;
+}
+
+.contact a:hover{
+    background: 
+}
+
+/*slider*/
+
+.slider {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+    
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+ 
+.slider img {
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}    
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+
+.redes{
+    
+}
+
+.redes img{
+    width: 50px;
+}

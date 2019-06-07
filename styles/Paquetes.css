@@ -1,0 +1,49 @@
+.Lista {
+    text-align: left;
+}
+
+.Lista ul li{
+    display:inline;
+    list-style-type: none;
+}
+
+.Lista button {
+    width: 20%;
+    height: 100px;
+    
+}
+
+/*contenidos*/
+
+.cont h1,h2{
+    margin:30px;
+}
+
+.wrap{
+    margin:70px;
+    background-color:saddlebrown;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#cont{
+    text-align:left;
+    background-color: lightgray;
+    color:black;
+    width: 93%;
+    margin:auto;
+}
+
+#cont a{
+    text-decoration: none;
+    color:white;
+    width: 100px;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+    background-color:darkgrey;
+    display: block;
+    margin: auto;
+    border: 2px black solid;
+}

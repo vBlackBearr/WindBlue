@@ -1,0 +1,49 @@
+
+body {
+    
+    margin:auto;
+}
+
+/*contenedores iniciales*/
+
+.wrap{
+    background-color:saddlebrown;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.wrap > div{
+    text-align:left;
+    background-color: aliceblue;
+    color:black;
+    width: 93%;
+    margin:auto;
+}
+
+.filosofia {
+    background-color:saddlebrown;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.filosofia div {
+    text-align: left;
+    background: white;
+    
+}
+
+.filosofia p {
+    color:black;
+}
+ 
+.intro {
+    display:flex;
+}
+
+.intro img {
+    width:50%;
+    height: auto;
+}
